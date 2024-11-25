@@ -5,9 +5,12 @@ const name = 'Mario';
 
 // Dichiara la funzione qui.
 
+const greet = (name) => {
+  return ?Ciao' + name;
+}
 
 // Invoca la funzione qui e stampa il risultato in console
-
+console.log (greet(userName));
 
 
 //Risultato atteso se si passa 'Mario': // ciao Mario
